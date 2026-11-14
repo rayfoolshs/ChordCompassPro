@@ -5,6 +5,9 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    // GitHub Pages serves project sites from https://<user>.github.io/<repo>/.
+    // Locally the app stays at the root path.
+    base: process.env.GITHUB_ACTIONS ? '/ChordCompassPro/' : '/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {

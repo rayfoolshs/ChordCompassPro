@@ -32,9 +32,14 @@ export function Header({
             e.preventDefault();
             onSelectTab('studio');
           }}
-          className="font-display text-lg font-bold tracking-tight text-slate-900 whitespace-nowrap shrink-0 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600 rounded"
+          className="flex items-baseline gap-2 shrink-0 rounded focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
         >
-          Chord Compass
+          <span className="font-display text-lg font-bold tracking-tight text-slate-900 whitespace-nowrap">
+            Chord Compass
+          </span>
+          <span className="hidden whitespace-nowrap text-[11px] font-medium uppercase tracking-[0.14em] text-slate-500 sm:inline">
+            created by Ray Foo
+          </span>
         </a>
 
         {/* Zone 2: Clean single-line text navigation */}
