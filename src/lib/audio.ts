@@ -1,5 +1,5 @@
 /**
- * Zero-dependency Web Audio polyphonic synthesizer for Chord Compass.
+ * Zero-dependency Web Audio polyphonic synthesizer for Chord Compass Pro.
  * Provides Electric Piano, Acoustic Piano, Nylon Guitar, and Warm Pad timbres
  * plus single-note melody audition and multi-chord preview without external CDN reliance.
  */

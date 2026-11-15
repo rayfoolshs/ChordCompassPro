@@ -1,4 +1,4 @@
-# Chord Compass
+# Chord Compass Pro
 
 A theory-guided chord progression and voice-leading studio for music students. Build progressions by
 Roman numeral, hear them with a small built-in synth, watch the voices move, and export the result as

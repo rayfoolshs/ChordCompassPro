@@ -1,5 +1,5 @@
 /**
- * Pure music theory engine for Chord Compass.
+ * Pure music theory engine for Chord Compass Pro.
  * Supports 12 keys with proper enharmonic spelling, 5 modes, diatonic & chromatic chords,
  * inversions, tendency-tone analysis, cadence detection, tension scoring, and ranked suggestions.
  */
