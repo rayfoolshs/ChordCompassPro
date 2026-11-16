@@ -1,6 +1,6 @@
 import { Download } from 'lucide-react';
 
-export type WorkspaceTab = 'studio' | 'voice-leading' | 'challenges' | 'guide';
+export type WorkspaceTab = 'studio' | 'voice-leading' | 'challenges' | 'guide' | 'manual';
 
 interface HeaderProps {
   activeTab: WorkspaceTab;
@@ -14,6 +14,7 @@ const NAV_ITEMS: { id: WorkspaceTab; label: string }[] = [
   { id: 'voice-leading', label: 'Voice Leading' },
   { id: 'challenges', label: 'Challenges' },
   { id: 'guide', label: 'Theory Guide' },
+  { id: 'manual', label: 'Manual' },
 ];
 
 export function Header({
@@ -87,7 +88,7 @@ export function Header({
       {/* Mobile compact navigation row */}
       <nav
         aria-label="Mobile sections"
-        className="flex md:hidden items-center justify-between gap-2 border-t border-slate-100 px-4 py-2 overflow-x-auto"
+        className="flex md:hidden flex-wrap items-center gap-1.5 border-t border-slate-100 px-4 py-2"
       >
         {NAV_ITEMS.map((item) => {
           const isActive = activeTab === item.id;

@@ -8,6 +8,7 @@ import { NextChordAdvisor } from './components/NextChordAdvisor';
 import { VoiceLeadingLab } from './components/VoiceLeadingLab';
 import { ChallengesView } from './components/ChallengesView';
 import { TheoryGuideView } from './components/TheoryGuideView';
+import { ManualView } from './components/ManualView';
 import {
   detectCadences,
   getRankedSuggestions,
@@ -718,6 +719,8 @@ export default function App() {
         {activeTab === 'guide' && (
           <TheoryGuideView keyId={keyId} instrument={instrument} />
         )}
+
+        {activeTab === 'manual' && <ManualView />}
       </main>
     </div>
   );

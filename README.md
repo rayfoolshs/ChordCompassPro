@@ -16,6 +16,7 @@ MIDI.
 | **Voice Leading** | Inspect each transition between chords: voice movement, common tones, and total motion cost. |
 | **Challenges** | Work through harmony exercises (e.g. build a cadence) and load a solution into the Studio. |
 | **Theory Guide** | Reference material for the chords and functions in the current key. |
+| **Manual** | The full in-app user manual (Edition 2.0), with a downloadable PDF. |
 
 Core features:
 
